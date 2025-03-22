@@ -1,7 +1,4 @@
-// import { test, expect } from '../utils/fixtures'
-import { test, expect } from '../utils/registration-fixture'
-import { websiteLocators } from '../data/locators'
-
+import { test, expect } from '../utils/fixtures'
 
 test('Navigate to Homepage', async ({ page }) => {
     await expect.soft(page).toHaveTitle('Registeration')
