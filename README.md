@@ -42,8 +42,7 @@ Ensure you have the following installed:
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-   cd YOUR_REPOSITORY
+   git clone https://github.com/CAustria0202/Registration-Functionality-Playwright.git
    ```
 
 2. **Install Dependencies**
