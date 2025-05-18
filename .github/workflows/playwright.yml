@@ -77,7 +77,7 @@ jobs:
 
     #Run Playwright Tests
     - name: Run Playwright tests
-      run: npx playwright test --grep '@smoke' --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
+      run: npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
 
     #Upload Blob Reports
     - name: Upload blob report to Github Actions Artifacts
